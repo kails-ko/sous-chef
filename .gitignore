@@ -1,0 +1,20 @@
+# npm
+node_modules/
+
+# Obsidian plugin data (settings, and any stored credentials)
+data.json
+
+# Sourcemaps — can embed original source and absolute build paths
+*.map
+
+# macOS
+.DS_Store
+
+# Editors
+.vscode/
+.idea/
+*.iml
+
+# NOTE: main.js is intentionally NOT ignored in this repo.
+# Unlike the other plugins, Sous Chef ships the compiled bundle
+# so it can be installed without a build step.
